@@ -35,21 +35,21 @@
       <button class=" mr-4">
         <div class="flex items-center bg-emerald-500 py-1 pl-4 pr-1 my-4 w-[230px] rounded-full flex-none ">
           <icons-app-teacher class=" inline-block w-8 h-8 font-medium text-white pr-3 pt-[0.5px]" />
-          <span class=" text-white font-medium tracking-wide ">The Array [ Learn ]</span>
+          <span class=" text-white font-medium tracking-wide ">the array [ learn ]</span>
           <icons-app-right class=" h-7 w-7 text-white  " />
         </div>
       </button>
       <button class=" mr-4">
         <div class="flex items-center bg-slate-500 py-1 pl-4 pr-1 my-4 w-[230px] rounded-full flex-none ">
           <icons-app-make class=" inline-block stroke-bold w-8 h-8 text-white pr-3 " />
-          <span class=" text-white font-medium tracking-wide ">The Array [ Make ]</span>
+          <span class=" text-white font-medium tracking-wide ">the array [ make ]</span>
           <icons-app-right class=" h-7 w-7 text-white  " />
         </div>
       </button>
       <button class=" mr-4">
         <div class="flex items-center bg-indigo-500 py-1 pl-4 pr-1 my-4 w-[230px] rounded-full flex-none ">
           <icons-app-play class=" inline-block w-8 h-8 text-white pl-1 pr-3 " />
-          <span class=" text-white font-medium tracking-wide ">The Array [ Play ]</span>
+          <span class=" text-white font-medium tracking-wide ">the array [ play ]</span>
           <icons-app-right class=" h-7 w-7 text-white  " />
         </div>
       </button>

@@ -78,5 +78,7 @@
       </template>
     </nuxt-layout>
 
+
+
   </div>
 </template>

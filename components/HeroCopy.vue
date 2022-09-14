@@ -8,7 +8,7 @@
     </template>
     <template #default>
       <p class=" xs:max-w-[320px] ">
-        Australia's northern seat for creative games and digital movie production with complete pathway for tech
+        Australia's northern home for creative games and digital movie production with complete pathway for tech
         entrepreneurs
         aged 15 ~ 25 and beyond.
       </p>

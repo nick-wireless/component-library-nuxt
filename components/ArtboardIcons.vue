@@ -66,5 +66,11 @@
     <base-icon iconName="Partners">
       <IconsAppTogether />
     </base-icon>
+    <base-icon iconName="Welcome">
+      <IconsAppAustralia />
+    </base-icon>
+    <base-icon iconName="Divider">
+      <IconsAppDivider />
+    </base-icon>
   </div>
 </template>

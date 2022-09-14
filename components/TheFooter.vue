@@ -56,6 +56,11 @@
             </div>
           </form>
         </div>
+        <section>
+          <div class=" bg-gray-100 mt-8 lg:mt-16 py-6 -mx-8">
+            <achnowledge-country />
+          </div>
+        </section>
       </div>
       <p class="pt-8 text-base text-gray-400 md:order-1 md:mt-0">&copy; 2022 The Array, Inc. All rights reserved.
       </p>
