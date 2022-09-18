@@ -1,5 +1,5 @@
 <template>
-  <div class=" absolute z-50 pt-8 flex items-center place-content-between w-full ">
+  <div class=" absolute z-10 pt-8 flex items-center place-content-between w-full ">
     <base-logo></base-logo>
     <base-icon class=" -mt-2 mr-3 relative md:hidden ">
       <div class="absolute -mt-1 -ml-[0.7rem] bg-green-300 w-full h-8 w-12 px-2 rounded-full opacity-40 "></div>

@@ -1,8 +1,14 @@
 <template>
   <footer class="bg-gray-800" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-      <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+    <div class="mx-auto  px-4 sm:px-6 lg:py-16 lg:px-8 pb-12 ">
+      <section>
+        <div class=" bg-gray-100 mt-8 lg:mt-16 py-6 -mx-6 ">
+          <achnowledge-country />
+        </div>
+      </section>
+
+      <div class="py-12 xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="grid grid-cols-2 gap-8 xl:col-span-2">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
@@ -56,11 +62,6 @@
             </div>
           </form>
         </div>
-        <section>
-          <div class=" bg-gray-100 mt-8 lg:mt-16 py-6 -mx-8">
-            <achnowledge-country />
-          </div>
-        </section>
       </div>
       <p class="pt-8 text-base text-gray-400 md:order-1 md:mt-0">&copy; 2022 The Array, Inc. All rights reserved.
       </p>

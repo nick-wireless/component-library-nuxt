@@ -72,5 +72,8 @@
     <base-icon iconName="Divider">
       <IconsAppDivider />
     </base-icon>
+    <base-icon iconName="Contact">
+      <IconsAppContact />
+    </base-icon>
   </div>
 </template>

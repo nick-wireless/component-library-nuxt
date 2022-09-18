@@ -77,8 +77,5 @@
         </p>
       </template>
     </nuxt-layout>
-
-
-
   </div>
 </template>

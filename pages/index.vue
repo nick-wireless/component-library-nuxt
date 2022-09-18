@@ -16,7 +16,6 @@
       <our-offering></our-offering>
     </section>
 
-
     <!-- What we do -->
     <section>
       <what-we-do></what-we-do>
@@ -28,17 +27,27 @@
     </section>
 
     <section>
-      <final-call-to-action></final-call-to-action>
+      <final-call-to-action @open="toggleModal"></final-call-to-action>
     </section>
-
-
+    <div v-if="showModal">
+      <modal-form-with-email @close="toggleModal"></modal-form-with-email>
+    </div>
   </nuxt-layout>
 </template>
 
 <script>
 export default {
-  layout: 'default',
-}
+  data() {
+    return {
+      showModal: false
+    }
+  },
+  methods: {
+    toggleModal() {
+      this.showModal = !this.showModal
+    }
+  }
+  }
 </script>
 
 <style>
