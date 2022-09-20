@@ -13,7 +13,7 @@
           </div>
           <h3 class="mt-3 sm:mt-5 text-lg font-medium leading-6 text-gray-900 text-center ">
             <slot name="heading">
-              Let's Connection
+              Let's Connect
             </slot>
           </h3>
           <div class=" mt-6 text-sm text-gray-500  leading-6 ">
@@ -24,7 +24,7 @@
           <div class=" mt-8 ">
             <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
             <div class="mt-1">
-              <input id="email" name="email" type="email" autocomplete="email" required=""
+              <input id="email" name="email" type="email" autocomplete="email" 
                 class="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" />
             </div>
           </div>

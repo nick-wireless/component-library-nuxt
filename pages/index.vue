@@ -3,7 +3,7 @@
     <!-- Hero image & general description of The Array. -->
     <section class=" relative  ">
       <hero-image class=" absolute "></hero-image>
-      <hero-copy @open="toggleModal" class=" absolute -mt-52 "></hero-copy>
+      <hero-copy @open="toggleStartHere" class=" absolute -mt-52 "></hero-copy>
     </section>
 
     <!-- Endorsement A: featured technologies. -->
@@ -29,6 +29,8 @@
     <section>
       <final-call-to-action @open="toggleModal" @openSponsorModal="toggleSponsorModal" ></final-call-to-action>
     </section>
+
+
     <div v-if="showModal">
       <modal-form-with-email @close="toggleModal"></modal-form-with-email>
     </div>
@@ -41,8 +43,22 @@
           Sponsors Corner
         </template>
         <div>
-          <p>Really, really great!  We look forward to working together to move Territorians & the North forward.</p>
-          <p class="pt-2">We will reach out shortly.</p>
+          <p>Totally awesome!  We look forward to working together to move Territorians & the North forward.</p>
+          <p class="pt-2">Send through your email & we will reach out shortly.</p>
+        </div>
+      </modal-form-with-email>
+    </div>
+    <div v-if="showStartHere">
+      <modal-form-with-email @close="toggleStartHere">
+        <template #icon>
+          <IconsAppStart />
+        </template>
+        <template #heading>
+          Signup Papers
+        </template>
+        <div>
+          <p>Welcome!  We're excited to work with you to enhance your capabilities and creativity.</p>
+          <p class="pt-2">Submit your email & we will send information, for your first steps.</p>
         </div>
       </modal-form-with-email>
     </div>
@@ -54,6 +70,7 @@
 export default {
   data() {
     return {
+      showStartHere: false,
       showModal: false,
       showSponsorModal: false
     }
@@ -64,6 +81,9 @@ export default {
     },
     toggleSponsorModal() {
       this.showSponsorModal = !this.showSponsorModal
+    },
+    toggleStartHere() {
+      this.showStartHere = !this.showStartHere
     }
   }
   }
