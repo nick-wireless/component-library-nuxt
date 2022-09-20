@@ -3,7 +3,7 @@
     <!-- Hero image & general description of The Array. -->
     <section class=" relative  ">
       <hero-image class=" absolute "></hero-image>
-      <hero-copy class=" absolute -mt-52 "></hero-copy>
+      <hero-copy @open="toggleModal" class=" absolute -mt-52 "></hero-copy>
     </section>
 
     <!-- Endorsement A: featured technologies. -->
@@ -27,11 +27,26 @@
     </section>
 
     <section>
-      <final-call-to-action @open="toggleModal"></final-call-to-action>
+      <final-call-to-action @open="toggleModal" @openSponsorModal="toggleSponsorModal" ></final-call-to-action>
     </section>
     <div v-if="showModal">
       <modal-form-with-email @close="toggleModal"></modal-form-with-email>
     </div>
+    <div v-if="showSponsorModal">
+      <modal-form-with-email @close="toggleSponsorModal">
+        <template #icon>
+          <IconsAppSponsor />
+        </template>
+        <template #heading>
+          Sponsors Corner
+        </template>
+        <div>
+          <p>Really, really great!  We look forward to working together to move Territorians & the North forward.</p>
+          <p class="pt-2">We will reach out shortly.</p>
+        </div>
+      </modal-form-with-email>
+    </div>
+
   </nuxt-layout>
 </template>
 
@@ -39,12 +54,16 @@
 export default {
   data() {
     return {
-      showModal: false
+      showModal: false,
+      showSponsorModal: false
     }
   },
   methods: {
     toggleModal() {
       this.showModal = !this.showModal
+    },
+    toggleSponsorModal() {
+      this.showSponsorModal = !this.showSponsorModal
     }
   }
   }

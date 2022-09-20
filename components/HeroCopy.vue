@@ -3,7 +3,7 @@
   <nuxt-layout name="section-copy" class="relative text-gray-600 mb-42 ">
     <template #header>
       <div class=" pb-2 text-4xl text-indigo-900 font-extrabold leading-10 ">
-        Providing ITC fun & training for North Australia
+        Providing ICT fun & training for North Australia
       </div>
     </template>
     <template #default>
@@ -14,7 +14,7 @@
       </p>
     </template>
     <template #footer>
-      <button class=" mr-4">
+      <button @click="openModal" class=" mr-4">
         <div class="flex items-center bg-indigo-900 pb-[1px] pl-4 pr-2 my-4 rounded-full flex-none ">
           <span class=" text-white tracking-wide ">Start now</span>
           <icons-app-right class=" h-5 w-5 text-white  " />
@@ -35,3 +35,13 @@
     </div> -->
   <!-- </div> -->
 </template>
+
+<script>
+export default {
+  methods: {
+    openModal() {
+      this.$emit('open')
+    }
+  }
+}
+</script>

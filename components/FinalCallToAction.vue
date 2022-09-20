@@ -14,7 +14,7 @@
     </button>
 
     <button>
-      <div class="flex items-center py-1 pl-3 pr-3 my-3 rounded-full flex-none ">
+      <div @click="openSponsorModal" class="flex items-center py-1 pl-3 pr-3 my-3 rounded-full flex-none ">
         <span class=" text-indigo-900 font-medium tracking-wide ">Become a sponsor</span>
         <icons-app-right class=" h-5 w-5 text-indigo-900  " />
       </div>
@@ -27,6 +27,9 @@ export default {
   methods: {
     openModal() {
       this.$emit('open')
+    },
+    openSponsorModal() {
+      this.$emit('openSponsorModal')
     }
   }
 }

@@ -75,5 +75,11 @@
     <base-icon iconName="Contact">
       <IconsAppContact />
     </base-icon>
+    <base-icon iconName="Sponsors">
+      <IconsAppSponsor />
+    </base-icon>
+    <base-icon iconName="Start">
+      <IconsAppStart />
+    </base-icon>
   </div>
 </template>
