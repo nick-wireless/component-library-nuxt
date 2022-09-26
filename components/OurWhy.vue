@@ -69,7 +69,7 @@
       <template #copyTitle>Look this way</template>
       <template #copyBody>
         <p>
-          ITC is hungry for Indigenous creativity. Rephrased ITC is hungry for creativity with a unique point of view.
+          ICT is hungry for Indigenous creativity. Rephrased ICT is hungry for creativity with a unique point of view.
           Territorians are bound in a
           multicultural, indigenous landscape, constrained by distance and population. Each has a unique prospective so
           unlike the norms of

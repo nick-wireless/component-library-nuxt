@@ -3,7 +3,7 @@
     <template #header>
       <nuxt-layout name="section-heading-body">
         <template #subHeading>Technology & creativity meet</template>
-        <template #default>A city location to make, play & learn ITC stuff</template>
+        <template #default>A city location to make, play & learn ICT stuff</template>
       </nuxt-layout>
     </template>
     <template #default>
