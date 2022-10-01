@@ -17,18 +17,18 @@
       </template>
       <template #copyTitle>Fibre to the world</template>
       <template #copyBody>
-        <p>
-          Darwin as Australia’s northern most capital has 5 under-sea cables ‘at their door’. These data highways
-          provide
-          the most populated English as a national language city with latency sub 50ms 1.5 bill people and sub 100ms
-          to
-          6.0 bill people.
-        </p>
-        <p class=" pt-3 ">
-          For gaming, data & internet enabled technologies, latency matters and Darwin as a basecamp is designed for
-          technologies
-          designed for the world.
-        </p>
+          <p>
+            Darwin as Australia’s northern most capital has 5 under-sea cables ‘at their door’. These data highways
+            provide
+            the most populated English as a national language city with latency sub 50ms 1.5 bill people and sub 100ms
+            to
+            6.0 bill people.
+          </p>
+          <p class=" pt-3 ">
+            For gaming, data & internet enabled technologies, latency matters and Darwin as a basecamp is designed for
+            technologies
+            designed for the world.
+          </p>
       </template>
     </nuxt-layout>
 
